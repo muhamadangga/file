@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2.1.07" exportTime="Fri Feb 14 14:46:19 ICT 2020">
+  <item>
+    <time>Fri Feb 14 14:45:46 ICT 2020</time>
+    <url><![CDATA[https://mail2.lc.pertamina.com/owa/auth.owa]]></url>
+    <host ip="202.20.107.29">mail2.lc.pertamina.com</host>
+    <port>443</port>
+    <protocol>https</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/owa/auth.owa]]></path>
+    <extension>owa</extension>
+    <request base64="true"><![CDATA[UE9TVCAvb3dhL2F1dGgub3dhIEhUVFAvMS4xDQpIb3N0OiBtYWlsMi5sYy5wZXJ0YW1pbmEuY29tDQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjo3My4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzczLjANCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2Uvd2VicCwqLyo7cT0wLjgNCkFjY2VwdC1MYW5ndWFnZTogaWQsZW4tVVM7cT0wLjcsZW47cT0wLjMNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQNCkNvbnRlbnQtTGVuZ3RoOiAxMzMNCk9yaWdpbjogaHR0cHM6Ly9tYWlsMi5sYy5wZXJ0YW1pbmEuY29tDQpDb25uZWN0aW9uOiBjbG9zZQ0KUmVmZXJlcjogaHR0cHM6Ly9tYWlsMi5sYy5wZXJ0YW1pbmEuY29tL293YS9hdXRoL2xvZ29uLmFzcHg/cmVwbGFjZUN1cnJlbnQ9MSZ1cmw9aHR0cHMlM2ElMmYlMmZtYWlsMi5sYy5wZXJ0YW1pbmEuY29tJTJmb3dhDQpDb29raWU6IF9nYT1HQTEuMi4xNTE2NjM0OTg2LjE1ODE2NTQ1MTU7IF9naWQ9R0ExLjIuNTE2NTY4OTM4LjE1ODE2NTQ1MTU7IFByaXZhdGVDb21wdXRlcj10cnVlOyBQQmFjaz0wDQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQoNCmRlc3RpbmF0aW9uPWh0dHBzJTNBJTJGJTJGbWFpbDIubGMucGVydGFtaW5hLmNvbSUyRm93YSZmbGFncz00JmZvcmNlZG93bmxldmVsPTAmdXNlcm5hbWU9YWRtaW4mcGFzc3dvcmQ9YXNkZmRzJnBhc3N3b3JkVGV4dD0maXNVdGY4PTE=]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>
